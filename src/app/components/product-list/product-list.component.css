@@ -1,0 +1,10 @@
+.product-list {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-content: center;
+}
+
+table {
+  width: 80%;
+}

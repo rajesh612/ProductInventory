@@ -1,0 +1,24 @@
+<form class="product-form" (ngSubmit)="submitProduct()">
+  <h3>Enter Product Details</h3>
+  <mat-form-field>
+      <mat-label>Product Id</mat-label>
+      <input matInput type="number" placeholder="Id" name="productId" [(ngModel)]="id">
+    </mat-form-field>
+  <mat-form-field>
+    <mat-label>Product Name</mat-label>
+    <input matInput placeholder="Name" name="productName" [(ngModel)]="productName">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Product Type</mat-label>
+    <input matInput placeholder="Type" name="productType" [(ngModel)]="productType">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Product Price</mat-label>
+    <input matInput placeholder="Price" name="price" [(ngModel)]="price">
+  </mat-form-field>
+  <div class="submit-button">
+    <button type="submit" mat-raised-button color="primary">Submit</button>
+  </div>
+</form>
