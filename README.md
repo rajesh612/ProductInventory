@@ -5,10 +5,10 @@ Application to audit Electronic Products Inventory using Angular 4 and RXJS.
 Run `git clone git@github.com:rajesh612/ProductInventory.git`
 
 ## Instructions to Run the application
-Run `cd ProductInventory`
-Run `npm install`
-Run `npm start` for a dev server. 
-Navigate to `http://localhost:4200/` in the browser.
+- Run `cd ProductInventory`
+- Run `npm install`
+- Run `npm start` for a dev server. 
+- Navigate to `http://localhost:4200/` in the browser.
 
 ## Build
 
